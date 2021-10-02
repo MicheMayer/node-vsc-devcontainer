@@ -1,0 +1,20 @@
+{
+	"name": "node-vsc-devcontainer",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "node-vsc-devcontainer",
+	"settings": {
+		"git.path": "/usr/bin/git"
+	},
+	"extensions": [
+		"ms-azuretools.vscode-azurestaticwebapps",
+		"yzhang.markdown-all-in-one",
+		"shd101wyy.markdown-preview-enhanced",
+		"jpoissonnier.vscode-styled-components",
+		"sibiraj-s.vscode-scss-formatter",
+		"naumovs.color-highlight",
+		"kisstkondoros.vscode-gutter-preview",
+		"spmeesseman.vscode-taskexplorer",
+		"silvenon.mdx"
+	],
+	"workspaceFolder": "/usr/projects",
+}
