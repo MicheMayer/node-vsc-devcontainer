@@ -9,6 +9,9 @@ services:
             - type: volume
               source: node-vsc-devcontainer-shared-volume
               target: /usr/projects
+            - type: bind
+              source: ./shared
+              target: /usr/projects/.devcontainer
         ports:
             - "8000:8000"
         secrets:
