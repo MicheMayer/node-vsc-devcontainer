@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:16
 EXPOSE 8000
 
 RUN echo "Installing dependencies..."
